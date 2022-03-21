@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1>Usando sockets</h1>
+    <div id="new_user">
+
+    </div>
+    <div id="chat">
+        <input type="text" id="username" placeholder="Ingrese su nombre">
+        <div id="all_messages">
+
+        </div>
+        <div id="writing">
+        </div>
+        <textarea id="write_message" placeholder="Ingrese un mensaje"></textarea>
+    </div>
+    <script src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

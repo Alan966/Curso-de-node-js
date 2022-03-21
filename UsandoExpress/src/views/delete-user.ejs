@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Eliminar Usuario</h1>
+    <form action="/users/delete/<%= user[0]['id'] %>" method="POST">
+        <h2>¿Desea eliminar este usuario?</h2>
+        <a id="btn-update" href="/users/all">Cancelar</a>
+        <input id="btn-delete" type="submit" value="Si, eliminar">
+    </form>
+
+    <style>
+        table{
+    margin: 0 auto;
+}
+
+td{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#btn-update{
+    background: green;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#btn-delete{
+        background: red;
+        border: none;
+        color: white;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+}
+    </style>
+</body>
+</html>

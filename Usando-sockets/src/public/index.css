@@ -1,0 +1,21 @@
+#chat{
+    margin: 0 auto; 
+    width: 300px;
+}
+
+#write_message{
+    padding: 20px;
+}
+#all_messages{
+    height: 300px;
+    overflow: auto;
+}
+.message{
+    background: #1ca2d6;
+    color: #fff;
+    padding: 5px;
+    margin-top: 12px;
+    display: inline-block; 
+    margin-left: auto;
+    border-radius: 10px;
+}
