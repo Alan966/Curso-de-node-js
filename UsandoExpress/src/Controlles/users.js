@@ -75,6 +75,7 @@ const createUser = (req, res) => {
         name: data.name, 
         age: data.age
     })
+    console.log(user)
     user.save((err, result) => {
         if(err){
             console.log('Ha ocurrido un error')

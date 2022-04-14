@@ -8,7 +8,7 @@ const loggedMiddleware = require('./middlewares/logged')
 
 //settings 
 app.set('title', 'Aplicacion hecha en Node Js')
-app.set('port', 3000)
+app.set('port', 5000)
 app.set('view engine', 'ejs')
 app.set('views', path.join(__dirname, 'views'))
 
